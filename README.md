@@ -262,8 +262,7 @@ The workbook was saved with a local file path, so step 3 is needed on any other 
 **Ketki Joshi**
 Data Analytics and Operations professional. MSc Business Analytics, Queen's University Belfast (2024).
 
-🔗 LinkedIn: [add URL]
-💼 Portfolio / GitHub: [add URL]
-📧 [add email, or delete this line]
+🔗 LinkedIn: https://www.linkedin.com/in/ketki-joshi-31051999kpj/
+📧 ketkipjoshi31@gmail.com
 
 Last updated: November 2026
