@@ -51,7 +51,7 @@ An interactive Tableau dashboard that explores how Netflix's catalogue of movies
 |---|---|
 | **In Scope** | The Netflix titles dataset (movies and TV shows): type, title, director, cast, country, date added, release year, rating, duration, genre, description |
 | **Out of Scope** | Viewing data, subscriber numbers, and ratings or reviews from outside the dataset. Data cleaning and splitting of multi-value fields are not done in this workbook (see Limitations). |
-| **Time Period** | Titles added to the catalogue: [add first and last date_added from your CSV]. Project completed November 2026. |
+| **Time Period** | Titles added to the catalogue: 2008 to 2020. Project completed November 2026. |
 | **Granularity** | One row per title. Views aggregate by year of date added, genre, country, rating and type. |
 
 ### Tools & Technologies
@@ -101,7 +101,7 @@ The workbook has no calculated fields, so there is no queries or scripts folder.
 [One dashboard with shared quick filters]
 ```
 
-**Source:** `netflix_titles.csv`, the Netflix titles dataset from Kaggle [confirm source and download date]. Contains [add row count] titles.
+**Source:** `netflix_titles.csv`, the Netflix titles dataset from Kaggle: https://www.kaggle.com/datasets/shivamb/netflix-shows. Contains 8,807 titles, which turns to 6,234 after data cleaning.
 
 **Ingestion:** Tableau text-file connection to the CSV, header row on, UTF-8 encoding, comma separator.
 
@@ -243,7 +243,7 @@ These insights need the data. The workbook contains the view definitions but no 
 | Dashboard workbook | Tableau workbook with twelve views and quick filters | `dashboards/Netflix_Dashboard.twb` |
 | Source data | Netflix titles CSV used by the workbook | `data/netflix_titles.csv` (add) |
 | Dashboard screenshot | Full-page image of the dashboard for this README | `visuals/dashboard.png` (add) |
-| Published dashboard | Public link to the interactive version | [add Tableau Public link] |
+| Published dashboard | Public link to the interactive version | https://github.com/ketki-joshi-profile/netflix-dashboard/blob/main/dashboard/Netflix%20Dashboard.twb |
 
 ---
 
